@@ -1,4 +1,10 @@
-# Cap Rates Aren't as Simple as They Sound (Here's What Actually Confused Me)
+---
+title: "Cap Rates Aren't as Simple as They Sound (Here's What Actually Confused Me)"
+date: "2026-07-08"
+summary: "Cap Rate = NOI / Price is easy. What actually confused me was the language around it — buyer-speak, exit caps, and the r minus g framework that ties it all together."
+metrics: ["Cap Rate = r - g", "Core to Opportunistic", "Compression vs Expansion"]
+---
+
 
 If you've spent any time around commercial real estate deals, you've heard the phrase "cap rate" thrown around constantly. The formula is simple enough — Net Operating Income divided by Price — but the way people *use* the term in conversation trips up a lot of otherwise sharp people. It certainly took me a minute to get past the basic definition and actually understand what's being said in a real deal conversation. Here's the breakdown that finally made it click.
 
