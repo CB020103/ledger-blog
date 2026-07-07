@@ -43,8 +43,8 @@ export default function About() {
         </p>
         <p>
           I'm currently exploring opportunities in commercial real estate
-          ahead of graduation &mdash; feel free to reach out if you think
-          there's a fit, or just want to talk CRE:{' '}
+          ahead of graduation. Feel free to reach out &mdash; happy to talk
+          CRE, or anything else on the site:{' '}
           <a href="mailto:cb2119@princeton.edu" className="text-slate underline underline-offset-2">
             cb2119@princeton.edu
           </a>
@@ -56,10 +56,6 @@ export default function About() {
           <li><strong>Blog</strong> &mdash; daily notes, concepts I'm learning, and the occasional fun tangent</li>
           <li><strong>Portfolio</strong> &mdash; fictional practice deals I've built to sharpen underwriting skills, entirely invented so as not to touch any real client work</li>
         </ul>
-        <p>
-          Feel free to reach out if you want to talk finance, CRE, or
-          anything else on the site.
-        </p>
       </div>
     </div>
   )
