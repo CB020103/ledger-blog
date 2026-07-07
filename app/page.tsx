@@ -15,17 +15,13 @@ export default function Home() {
           I'm learning finance and CRE in public, and writing down
           everything as I go.
         </h1>
-        <p className="text-ink/70 leading-relaxed max-w-xl mb-3">
-          This site is my running ledger — actual models I've built, concepts
-          I finally understood, mistakes I caught, and the occasional fun
-          tangent. Nothing here is cleaned up after the fact. It's posted as
-          I go, which means some of it is rough, and that's the point.
-        </p>
         <p className="text-ink/70 leading-relaxed max-w-xl">
           Check the <Link href="/blog" className="text-slate underline underline-offset-2">Blog</Link> for
-          daily notes and learning, or the{' '}
+          daily notes and learning, the{' '}
           <Link href="/portfolio" className="text-slate underline underline-offset-2">Portfolio</Link> for
-          fake deals I've built to practice modeling real assets.
+          fake deals I've built to practice modeling real assets, or the{' '}
+          <Link href="/about" className="text-slate underline underline-offset-2">About</Link> page
+          to learn more about me and the site.
         </p>
       </section>
 
