@@ -39,9 +39,11 @@ export default function RootLayout({
             <a href="/" className="font-display text-2xl tracking-tight">
               The Ledger
             </a>
-            <span className="font-mono text-xs text-ink/60 uppercase tracking-widest">
-              Vol. 01 — learning in public
-            </span>
+            <nav className="flex items-baseline gap-5 font-mono text-xs uppercase tracking-widest">
+              <a href="/blog" className="hover:text-brass transition-colors">Blog</a>
+              <a href="/portfolio" className="hover:text-brass transition-colors">Portfolio</a>
+              <span className="text-ink/40">Vol. 01</span>
+            </nav>
           </div>
         </header>
         <main className="flex-1">{children}</main>
