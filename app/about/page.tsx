@@ -24,6 +24,32 @@ export default function About() {
           honest, not polished.
         </p>
         <p>
+          It actually started with a single conversation with a Princeton
+          alum working in CRE, which sent me on a journey of reaching out
+          to and calling as many people in the industry as I could &mdash;
+          something I'm still doing today. Along the way, I got involved
+          with the <strong>Princeton Undergraduate Real Estate Group
+          (PUREG)</strong>, where I now serve as Co-President. PUREG brings
+          in speakers from across the CRE industry, connects undergrads
+          with opportunities, and hopefully gets more students excited
+          about the field the way those early conversations did for me.
+        </p>
+        <p>
+          What's kept me hooked through hundreds of those conversations is
+          how much of this business runs on the human side of things &mdash;
+          relationships, trust, and people actually picking up the phone
+          for each other. That's a big part of why I find CRE so
+          compelling.
+        </p>
+        <p>
+          I'm currently exploring opportunities in commercial real estate
+          ahead of graduation &mdash; feel free to reach out if you think
+          there's a fit, or just want to talk CRE:{' '}
+          <a href="mailto:cb2119@princeton.edu" className="text-slate underline underline-offset-2">
+            cb2119@princeton.edu
+          </a>
+        </p>
+        <p>
           A few things you'll find around the site:
         </p>
         <ul>
