@@ -1,7 +1,7 @@
 ---
 title: "Building my first DCF from scratch"
 date: "2026-07-06"
-summary: "Working through free cash flow, WACC, and the two terminal value methods — and where my model's enterprise value formula broke."
+summary: "Working through free cash flow, WACC, and the two terminal value methods - and where my model's enterprise value formula broke."
 metrics: ["WACC 8.49%", "EV/EBITDA 7.0x", "g = 1.7%"]
 ---
 
@@ -33,13 +33,13 @@ D&A gets added back because it's a non-cash expense. CapEx and the working
 capital build get subtracted because they're real cash going out the door
 that the income statement doesn't show.
 
-## WACC — the discount rate
+## WACC - the discount rate
 
 ```
 WACC = (E/V × Cost of Equity) + (D/V × Cost of Debt × (1 – Tax Rate))
 ```
 
-The tax adjustment only applies to the debt side — interest is
+The tax adjustment only applies to the debt side - interest is
 tax-deductible, equity returns aren't. Cost of equity itself usually comes
 from CAPM: risk-free rate + beta × equity risk premium.
 
@@ -58,14 +58,14 @@ the future:
 TV = Final Year EBITDA × EV/EBITDA multiple
 ```
 
-They rarely agree exactly, and that's fine — the useful exercise is checking
+They rarely agree exactly, and that's fine - the useful exercise is checking
 *why* they diverge. A big gap usually means the growth rate baked into your
 multiple doesn't match the growth rate you assumed in the perpetuity method.
 
 ## Where I actually got tripped up
 
 My Enterprise Value cell was showing a number bigger than PV of FCF + PV of
-Terminal Value — which shouldn't be possible, since that sum *is* the
+Terminal Value - which shouldn't be possible, since that sum *is* the
 definition of EV. Turned out to be a stale cell reference pulling in an
 extra line. Lesson: after building the PV rows, always sanity-check that
 EV = SUM(PV of FCF) + PV(TV), nothing more, nothing less.

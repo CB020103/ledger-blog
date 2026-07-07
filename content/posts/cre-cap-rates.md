@@ -27,8 +27,8 @@ year's NOI:
 Reversion Value = Final Year NOI / Exit Cap Rate
 ```
 
-Note the exit cap rate is usually set *higher* than the entry cap rate —
-called "cap rate expansion" — as a conservative assumption that the market
+Note the exit cap rate is usually set *higher* than the entry cap rate -
+called "cap rate expansion" - as a conservative assumption that the market
 might be less favorable by the time you sell.
 
 ## What's genuinely different
@@ -38,9 +38,9 @@ might be less favorable by the time you sell.
   corporate model.
 - **Vacancy and re-leasing** show up explicitly as their own line items,
   something a corporate DCF rarely models directly.
-- **The exit isn't optional** — almost every CRE model assumes a sale at a
+- **The exit isn't optional** - almost every CRE model assumes a sale at a
   specific year, whereas a corporate DCF often treats the terminal value as
   a going-concern estimate, not a real transaction.
 
-More on the entry cap rate vs. exit cap rate relationship next time — that's
+More on the entry cap rate vs. exit cap rate relationship next time - that's
 where most of the sensitivity in a CRE deal actually lives.
