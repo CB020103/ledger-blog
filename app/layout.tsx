@@ -36,20 +36,16 @@ export default function RootLayout({
       <body className="font-body bg-paper text-ink min-h-screen flex flex-col">
         <header className="border-b border-ink">
           <div className="max-w-3xl mx-auto px-6 py-5 flex items-baseline justify-between">
-            <div className="flex items-baseline gap-4">
-              <div>
-                <a href="/" className="font-display text-2xl tracking-tight block">
-                  The Ledger
-                </a>
-                <p className="font-mono text-[11px] text-ink/50 tracking-wide mt-0.5">
-                  by Connor Buck
-                </p>
-              </div>
-              <a href="/about" className="font-mono text-xs uppercase tracking-widest hover:text-brass transition-colors border-l border-rule pl-4">
-                About
+            <div>
+              <a href="/" className="font-display text-2xl tracking-tight block">
+                The Ledger
               </a>
+              <p className="font-mono text-[11px] text-ink/50 tracking-wide mt-0.5">
+                by Connor Buck
+              </p>
             </div>
             <nav className="flex items-baseline gap-5 font-mono text-xs uppercase tracking-widest">
+              <a href="/about" className="hover:text-brass transition-colors">About</a>
               <a href="/blog" className="hover:text-brass transition-colors">Blog</a>
               <a href="/portfolio" className="hover:text-brass transition-colors">Portfolio</a>
             </nav>
