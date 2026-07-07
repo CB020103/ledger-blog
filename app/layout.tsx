@@ -41,13 +41,13 @@ export default function RootLayout({
                 The Ledger
               </a>
               <p className="font-mono text-[11px] text-ink/50 tracking-wide mt-0.5">
-                Connor Buck &middot; Princeton &apos;27 &middot; ORFE &middot; CRE
+                by Connor Buck
               </p>
             </div>
             <nav className="flex items-baseline gap-5 font-mono text-xs uppercase tracking-widest">
               <a href="/blog" className="hover:text-brass transition-colors">Blog</a>
               <a href="/portfolio" className="hover:text-brass transition-colors">Portfolio</a>
-              <span className="text-ink/40">Vol. 01</span>
+              <a href="/about" className="hover:text-brass transition-colors">About</a>
             </nav>
           </div>
         </header>
