@@ -1,7 +1,7 @@
 ---
 title: "Building my first DCF from scratch"
 date: "2026-07-06"
-summary: "Working through free cash flow, WACC, and the two terminal value methods - and where my model's enterprise value formula broke."
+summary: "Working through free cash flow, WACC, and the two terminal value methods, and where my model's enterprise value formula broke."
 metrics: ["WACC 8.49%", "EV/EBITDA 7.0x", "g = 1.7%"]
 ---
 
@@ -65,7 +65,7 @@ multiple doesn't match the growth rate you assumed in the perpetuity method.
 ## Where I actually got tripped up
 
 My Enterprise Value cell was showing a number bigger than PV of FCF + PV of
-Terminal Value - which shouldn't be possible, since that sum *is* the
+Terminal Value, which shouldn't be possible, since that sum *is* the
 definition of EV. Turned out to be a stale cell reference pulling in an
 extra line. Lesson: after building the PV rows, always sanity-check that
 EV = SUM(PV of FCF) + PV(TV), nothing more, nothing less.
