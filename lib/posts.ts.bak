@@ -13,7 +13,6 @@ export type PostMeta = {
   date: string
   summary: string
   metrics?: string[]
-  tags?: string[]
 }
 
 export function getSortedPostsMeta(): PostMeta[] {
@@ -29,7 +28,6 @@ export function getSortedPostsMeta(): PostMeta[] {
       date: data.date,
       summary: data.summary,
       metrics: data.metrics || [],
-      tags: data.tags || [],
     }
   })
 
