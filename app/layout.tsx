@@ -44,11 +44,11 @@ export default function RootLayout({
                 by Connor Buck
               </p>
             </div>
-            <nav className="flex items-baseline gap-5 font-mono text-xs uppercase tracking-widest">
-              <a href="/about" className="hover:text-brass transition-colors">About</a>
-              <a href="/blog" className="hover:text-brass transition-colors">Blog</a>
-              <a href="/macro" className="hover:text-brass transition-colors">Macro Perspectives</a>
-              <a href="/portfolio" className="hover:text-brass transition-colors">Portfolio</a>
+            <nav className="flex items-baseline gap-5 font-mono text-[13px] tracking-tight">
+              <a href="/about" className="hover:text-brass transition-colors">about</a>
+              <a href="/blog" className="hover:text-brass transition-colors">blog</a>
+              <a href="/macro" className="hover:text-brass transition-colors">macro perspectives</a>
+              <a href="/portfolio" className="hover:text-brass transition-colors">portfolio</a>
             </nav>
           </div>
         </header>
