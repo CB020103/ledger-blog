@@ -46,8 +46,8 @@ export default function RootLayout({
             </div>
             <nav className="flex items-baseline gap-5 font-mono text-xs uppercase tracking-widest">
               <a href="/about" className="hover:text-brass transition-colors">About</a>
-              <a href="/macro" className="hover:text-brass transition-colors">Macro Views</a>
               <a href="/blog" className="hover:text-brass transition-colors">Blog</a>
+              <a href="/macro" className="hover:text-brass transition-colors">Macro Perspectives</a>
               <a href="/portfolio" className="hover:text-brass transition-colors">Portfolio</a>
             </nav>
           </div>
