@@ -30,3 +30,11 @@ Public REIT shareholders own an indirect but proportional claim on the actual po
 Private REITs work differently. There is no daily market price, so the sponsor periodically appraises the portfolio, often monthly or quarterly, and sets NAV per share directly from that appraisal. That sounds cleaner, but it creates a liquidity problem instead. With no market to sell into, private REITs run redemption programs that cap how much investors can cash out in a given period. When a lot of investors want out at once, as happened industry-wide in 2022 and 2023, sponsors gate redemptions, meaning the stated NAV is real on paper but not immediately accessible.
 
 The contrast is the cleanest way to hold both models in your head at once. Public REITs have close to perfect liquidity but noisy, sentiment-driven pricing. Private REITs have steadier, appraisal-based pricing but real liquidity risk when everyone wants out at the same time. Same asset class, same core FFO and NAV logic underneath, completely different plumbing on top.
+
+## Sources
+
+- [Nareit: Funds From Operations (FFO) Defined](https://www.reit.com/glossary/funds-operation-ffo)
+- [Nareit: 2002 FFO White Paper](https://www.reit.com/sites/default/files/media/Portals/0/Files/Nareit/htdocs/policy/accounting/2002_FFO_White_Paper.pdf)
+- [Wall Street Prep: FFO Formula and Calculator](https://www.wallstreetprep.com/knowledge/ffo-funds-from-operations/)
+- [Blue Vault: Blackstone REIT Share Redemptions Story](https://bluevaultpartners.com/blackstone-reits-share-redemptions-story-far-from-over/)
+- [Neuberger Berman: Non-Traded REIT Redemption Gates Explainer](https://www.nb.com/handlers/documents.ashx?id=8e4abae8-0b6e-4899-b3d3-3243c3a2da30)
