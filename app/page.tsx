@@ -17,7 +17,8 @@ export default function Home() {
         </h1>
         <p className="text-ink/70 leading-relaxed max-w-xl">
           Check the <Link href="/blog" className="text-slate underline underline-offset-2">Blog</Link> for
-          daily notes and learning, the{' '}
+          daily notes and learning, <Link href="/macro" className="text-slate underline underline-offset-2">Macro Perspectives</Link> for
+          how current trends filter into CRE, the{' '}
           <Link href="/portfolio" className="text-slate underline underline-offset-2">Portfolio</Link> for
           fake deals I've built to practice modeling real assets, or the{' '}
           <Link href="/about" className="text-slate underline underline-offset-2">About</Link> page

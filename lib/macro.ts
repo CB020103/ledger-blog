@@ -5,22 +5,28 @@ import { remark } from 'remark'
 import remarkGfm from 'remark-gfm'
 import html from 'remark-html'
 
-const postsDirectory = path.join(process.cwd(), 'content/posts')
+const macroDirectory = path.join(process.cwd(), 'content/macro')
 
-export type PostMeta = {
+export type MacroMeta = {
   slug: string
   title: string
   date: string
   summary: string
   metrics?: string[]
-  tags?: string[]
 }
 
-export function getSortedPostsMeta(): PostMeta[] {
-  const fileNames = fs.readdirSync(postsDirectory).filter((f) => f.endsWith('.md'))
+function ensureDirExists() {
+  if (!fs.existsSync(macroDirectory)) {
+    fs.mkdirSync(macroDirectory, { recursive: true })
+  }
+}
+
+export function getSortedMacroMeta(): MacroMeta[] {
+  ensureDirExists()
+  const fileNames = fs.readdirSync(macroDirectory).filter((f) => f.endsWith('.md'))
   const posts = fileNames.map((fileName) => {
     const slug = fileName.replace(/\.md$/, '')
-    const fullPath = path.join(postsDirectory, fileName)
+    const fullPath = path.join(macroDirectory, fileName)
     const fileContents = fs.readFileSync(fullPath, 'utf8')
     const { data } = matter(fileContents)
     return {
@@ -29,20 +35,20 @@ export function getSortedPostsMeta(): PostMeta[] {
       date: data.date,
       summary: data.summary,
       metrics: data.metrics || [],
-      tags: data.tags || [],
     }
   })
 
   return posts.sort((a, b) => (a.date < b.date ? 1 : -1))
 }
 
-export function getAllPostSlugs() {
-  const fileNames = fs.readdirSync(postsDirectory).filter((f) => f.endsWith('.md'))
+export function getAllMacroSlugs() {
+  ensureDirExists()
+  const fileNames = fs.readdirSync(macroDirectory).filter((f) => f.endsWith('.md'))
   return fileNames.map((fileName) => fileName.replace(/\.md$/, ''))
 }
 
-export async function getPostBySlug(slug: string) {
-  const fullPath = path.join(postsDirectory, `${slug}.md`)
+export async function getMacroBySlug(slug: string) {
+  const fullPath = path.join(macroDirectory, `${slug}.md`)
   const fileContents = fs.readFileSync(fullPath, 'utf8')
   const { data, content } = matter(fileContents)
 

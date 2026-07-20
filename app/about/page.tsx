@@ -54,6 +54,7 @@ export default function About() {
         </p>
         <ul>
           <li><strong>Blog</strong>: daily notes, concepts I'm learning, and the occasional fun tangent</li>
+          <li><strong>Macro Perspectives</strong>: how current macro and geopolitical trends filter down into CRE</li>
           <li><strong>Portfolio</strong>: fictional practice deals I've built to sharpen underwriting skills, entirely invented so as not to touch any real client work</li>
         </ul>
       </div>
