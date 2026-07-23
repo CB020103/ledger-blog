@@ -1,4 +1,4 @@
-import Link from 'next/link'
+﻿import Link from 'next/link'
 import Ticker from './Ticker'
 import { MacroMeta } from '@/lib/macro'
 
@@ -10,9 +10,10 @@ export default function MacroCard({ post, index }: { post: MacroMeta; index: num
           {String(index + 1).padStart(2, '0')}
         </span>
         <div className="flex-1">
+          <span className="font-mono text-[10px] tracking-widest uppercase text-signal">Macro</span>
           <div className="flex items-baseline justify-between gap-4">
             <Link href={`/macro/${post.slug}`} className="group">
-              <h2 className="font-display text-xl group-hover:text-brass transition-colors">
+              <h2 className="font-display font-semibold text-xl group-hover:text-signal transition-colors">
                 {post.title}
               </h2>
             </Link>

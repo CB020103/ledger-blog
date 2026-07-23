@@ -1,4 +1,4 @@
-/** @type {import('tailwindcss').Config} */
+﻿/** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
     './app/**/*.{js,ts,jsx,tsx,mdx}',
@@ -7,18 +7,23 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        paper: '#EEF0EA',
-        ink: '#16201C',
-        rule: '#C7CBC0',
-        brass: '#B8863B',
-        slate: '#34495E',
-        forest: '#2F6F4E',
-        rust: '#9C4A3D',
+        canvas: '#F7F8FA',
+        ink: '#0B1220',
+        line: '#DDE1E8',
+        signal: '#2E5EFF',
+        up: '#0E8345',
+        down: '#C4291C',
       },
       fontFamily: {
-        display: ['var(--font-fraunces)', 'serif'],
+        display: ['var(--font-space-grotesk)', 'sans-serif'],
         body: ['var(--font-inter)', 'sans-serif'],
         mono: ['var(--font-plex-mono)', 'monospace'],
+      },
+      borderRadius: {
+        none: '0px',
+        sm: '1px',
+        DEFAULT: '2px',
+        lg: '2px',
       },
     },
   },

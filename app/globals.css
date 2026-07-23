@@ -1,37 +1,37 @@
-@tailwind base;
+﻿@tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 ::selection {
-  background: #B8863B;
-  color: #EEF0EA;
+  background: #2E5EFF;
+  color: #F7F8FA;
 }
 
 body {
-  background-color: #EEF0EA;
-  color: #16201C;
+  background-color: #F7F8FA;
+  color: #0B1220;
 }
 
 .rule-line {
-  border-top: 1px solid #C7CBC0;
+  border-top: 1px solid #DDE1E8;
 }
 
 .ticker-strip {
   display: flex;
   gap: 0;
   overflow-x: auto;
-  border-top: 1px solid #16201C;
-  border-bottom: 1px solid #16201C;
+  border-top: 1px solid #0B1220;
+  border-bottom: 1px solid #0B1220;
 }
 
 .ticker-item {
   font-family: var(--font-plex-mono);
   font-size: 0.72rem;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
   white-space: nowrap;
   padding: 0.4rem 0.85rem;
-  border-right: 1px solid #C7CBC0;
-  color: #16201C;
+  border-right: 1px solid #DDE1E8;
 }
 
 .ticker-item:last-child {
@@ -39,15 +39,17 @@ body {
 }
 
 .prose-ledger h2 {
-  font-family: var(--font-fraunces);
+  font-family: var(--font-space-grotesk);
+  font-weight: 600;
   font-size: 1.5rem;
   margin-top: 2.25rem;
   margin-bottom: 0.75rem;
-  color: #16201C;
+  color: #0B1220;
 }
 
 .prose-ledger h3 {
-  font-family: var(--font-fraunces);
+  font-family: var(--font-space-grotesk);
+  font-weight: 600;
   font-size: 1.15rem;
   margin-top: 1.75rem;
   margin-bottom: 0.5rem;
@@ -56,28 +58,28 @@ body {
 .prose-ledger p {
   margin-bottom: 1rem;
   line-height: 1.75;
-  color: #2b332e;
+  color: #1c2534;
 }
 
 .prose-ledger a {
-  color: #34495E;
+  color: #2E5EFF;
   text-decoration: underline;
   text-underline-offset: 2px;
 }
 
 .prose-ledger code {
   font-family: var(--font-plex-mono);
-  background: #E2E5DC;
+  background: #EEF1F5;
   padding: 0.1rem 0.35rem;
   border-radius: 2px;
   font-size: 0.85em;
 }
 
 .prose-ledger pre {
-  background: #16201C;
-  color: #EEF0EA;
+  background: #0B1220;
+  color: #F7F8FA;
   padding: 1rem;
-  border-radius: 4px;
+  border-radius: 2px;
   overflow-x: auto;
   margin-bottom: 1.25rem;
 }
@@ -99,10 +101,10 @@ body {
 }
 
 .prose-ledger blockquote {
-  border-left: 3px solid #B8863B;
+  border-left: 3px solid #2E5EFF;
   padding-left: 1rem;
   font-style: italic;
-  color: #4a5249;
+  color: #3a4353;
   margin-bottom: 1.25rem;
 }
 
@@ -115,12 +117,12 @@ body {
 }
 
 .prose-ledger th, .prose-ledger td {
-  border: 1px solid #C7CBC0;
+  border: 1px solid #DDE1E8;
   padding: 0.4rem 0.6rem;
   text-align: left;
 }
 
 .prose-ledger th {
-  background: #16201C;
-  color: #EEF0EA;
+  background: #0B1220;
+  color: #F7F8FA;
 }
