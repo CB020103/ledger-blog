@@ -1,4 +1,4 @@
-﻿---
+---
 title: "This Week's Market Move Is Everything I've Written About, All at Once"
 date: "2026-07-23"
 summary: "Oil past $100, Treasury yields at a two-month high, and an AI capex wobble in the same week. It is a live check-in on the Hormuz and rate-move theses I have already written about here."
@@ -9,7 +9,7 @@ I did not expect to be writing a check-in post on my own theses this soon, but t
 
 ## This is the Hormuz thesis showing up in real time
 
-A few weeks ago I wrote about how a Middle East energy shock filters into CRE through construction costs, operating costs, and financing costs, not just gas prices at the pump. That was a framework built from first principles. This week is the framework happening live. Oil past $100 is not a hypothetical input to a construction cost model anymore, it is the actual number underwriters are staring at right now.
+Last week I wrote about how a Middle East energy shock filters into CRE through construction costs, operating costs, and financing costs, not just gas prices at the pump. That was a framework built from first principles. This week is the framework happening live. Oil past $100 is not a hypothetical input to a construction cost model anymore, it is the actual number underwriters are staring at right now.
 
 ## This is also the rate-move-under-contract post, at scale
 
