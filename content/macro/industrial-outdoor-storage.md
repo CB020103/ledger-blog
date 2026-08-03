@@ -30,3 +30,10 @@ The public market angle, the part I was most curious about, basically opened and
 ## Where I land
 
 The supply and demand story that hooked me is real, and it is durable, because the constraint is zoning and zoning does not loosen quickly. But the easy version of the trade, get in before the institutions, is already gone. The interesting question now is whether IOS stays a private, fund owned asset class that gets absorbed into giants like Brookfield, or whether the scale and cash flow stability eventually pull a new pure play REIT back onto the public market for people who want the exposure without writing a fund commitment. Given how quickly Peakstone got taken out, I would bet the smart money wants to keep this one private for a while.
+
+---
+
+- [Commercial Observer: Mom-and-Pop Industrial Outdoor Storage Owners Cash In](https://commercialobserver.com/2026/06/industrial-outdoor-storage-institutional-investors-2026/)
+- [Business Wire: Brookfield to Acquire Peakstone Realty Trust in a $1.2 Billion All-Cash Transaction](https://www.businesswire.com/news/home/20260201864040/en/Brookfield-to-Acquire-Peakstone-Realty-Trust-in-a-$1.2-Billion-All-Cash-Transaction)
+- [citybiz: Catalyst Investment Partners Acquires $181 Million in IOS Properties](https://www.citybiz.co/article/881137/catalyst-investment-partners-acquires-181-million-in-ios-properties-during-first-half-of-2026/)
+- [Northmarq: A Comprehensive Guide to Industrial Outdoor Storage](https://www.northmarq.com/insights/knowledge-center/comprehensive-guide-industrial-outdoor-storage)
